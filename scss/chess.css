@@ -1,0 +1,202 @@
+.box {
+  width: 600px;
+  height: 600px;
+  background: #2ed977;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto; }
+
+.chess {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  z-index: 999; }
+
+.white {
+  background: white; }
+
+.black {
+  background: black; }
+
+.hen {
+  width: 560px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  transform: translate3d(-300%, 0, 0);
+  animation: through 1s 1 ease-in forwards; }
+
+.shu {
+  height: 560px;
+  width: 1px;
+  background-color: black;
+  position: absolute;
+  transform: translate3d(0, -300%, 0);
+  animation: down 1s 1 ease-in forwards; }
+
+.hen:nth-of-type(1) {
+  left: 20px;
+  top: 20px;
+  animation-delay: 100ms; }
+
+.hen:nth-of-type(2) {
+  left: 20px;
+  top: 60px;
+  animation-delay: 200ms; }
+
+.hen:nth-of-type(3) {
+  left: 20px;
+  top: 100px;
+  animation-delay: 300ms; }
+
+.hen:nth-of-type(4) {
+  left: 20px;
+  top: 140px;
+  animation-delay: 400ms; }
+
+.hen:nth-of-type(5) {
+  left: 20px;
+  top: 180px;
+  animation-delay: 500ms; }
+
+.hen:nth-of-type(6) {
+  left: 20px;
+  top: 220px;
+  animation-delay: 600ms; }
+
+.hen:nth-of-type(7) {
+  left: 20px;
+  top: 260px;
+  animation-delay: 700ms; }
+
+.hen:nth-of-type(8) {
+  left: 20px;
+  top: 300px;
+  animation-delay: 800ms; }
+
+.hen:nth-of-type(9) {
+  left: 20px;
+  top: 340px;
+  animation-delay: 900ms; }
+
+.hen:nth-of-type(10) {
+  left: 20px;
+  top: 380px;
+  animation-delay: 1000ms; }
+
+.hen:nth-of-type(11) {
+  left: 20px;
+  top: 420px;
+  animation-delay: 1100ms; }
+
+.hen:nth-of-type(12) {
+  left: 20px;
+  top: 460px;
+  animation-delay: 1200ms; }
+
+.hen:nth-of-type(13) {
+  left: 20px;
+  top: 500px;
+  animation-delay: 1300ms; }
+
+.hen:nth-of-type(14) {
+  left: 20px;
+  top: 540px;
+  animation-delay: 1400ms; }
+
+.hen:nth-of-type(15) {
+  left: 20px;
+  top: 580px;
+  animation-delay: 1500ms; }
+
+.shu:nth-of-type(1) {
+  top: 20px;
+  left: 20px;
+  animation-delay: 100ms; }
+
+.shu:nth-of-type(2) {
+  top: 20px;
+  left: 60px;
+  animation-delay: 200ms; }
+
+.shu:nth-of-type(3) {
+  top: 20px;
+  left: 100px;
+  animation-delay: 300ms; }
+
+.shu:nth-of-type(4) {
+  top: 20px;
+  left: 140px;
+  animation-delay: 400ms; }
+
+.shu:nth-of-type(5) {
+  top: 20px;
+  left: 180px;
+  animation-delay: 500ms; }
+
+.shu:nth-of-type(6) {
+  top: 20px;
+  left: 220px;
+  animation-delay: 600ms; }
+
+.shu:nth-of-type(7) {
+  top: 20px;
+  left: 260px;
+  animation-delay: 700ms; }
+
+.shu:nth-of-type(8) {
+  top: 20px;
+  left: 300px;
+  animation-delay: 800ms; }
+
+.shu:nth-of-type(9) {
+  top: 20px;
+  left: 340px;
+  animation-delay: 900ms; }
+
+.shu:nth-of-type(10) {
+  top: 20px;
+  left: 380px;
+  animation-delay: 1000ms; }
+
+.shu:nth-of-type(11) {
+  top: 20px;
+  left: 420px;
+  animation-delay: 1100ms; }
+
+.shu:nth-of-type(12) {
+  top: 20px;
+  left: 460px;
+  animation-delay: 1200ms; }
+
+.shu:nth-of-type(13) {
+  top: 20px;
+  left: 500px;
+  animation-delay: 1300ms; }
+
+.shu:nth-of-type(14) {
+  top: 20px;
+  left: 540px;
+  animation-delay: 1400ms; }
+
+.shu:nth-of-type(15) {
+  top: 20px;
+  left: 580px;
+  animation-delay: 1500ms; }
+
+@keyframes down {
+  from {
+    transform: translate3d(0, -300%, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes through {
+  from {
+    transform: translate3d(-300%, 0, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }

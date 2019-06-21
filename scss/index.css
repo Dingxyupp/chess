@@ -1,0 +1,69 @@
+box, .oio {
+  width: 200px;
+  height: 100px; }
+
+.dxy {
+  height: 500px;
+  width: auto;
+  color: white;
+  border-bottom: #2ed977;
+  text-align: center; }
+  .dxy-fg {
+    color: #2ed977; }
+  .dxy > p {
+    color: #2ed977;
+    margin-left: -100px; }
+  .dxy + ul {
+    width: 100%;
+    border-bottom: 1px; }
+
+.oio {
+  color: red; }
+
+.cjj-1 {
+  width: 8.33333%; }
+
+.cjj-2 {
+  width: 16.66667%; }
+
+.cjj-3 {
+  width: 25%; }
+
+.cjj-4 {
+  width: 33.33333%; }
+
+.cjj-5 {
+  width: 41.66667%; }
+
+.cjj-6 {
+  width: 50%; }
+
+.cjj-7 {
+  width: 58.33333%; }
+
+.cjj-8 {
+  width: 66.66667%; }
+
+.cjj-9 {
+  width: 75%; }
+
+.cjj-10 {
+  width: 83.33333%; }
+
+.cjj-11 {
+  width: 91.66667%; }
+
+.cjj-12 {
+  width: 100%; }
+
+.l1 {
+  background-image: url("./img/l1.png"); }
+
+.l2 {
+  background-image: url("./img/l2.png"); }
+
+.l3 {
+  background-image: url("./img/l3.png"); }
+
+.l4 {
+  background-image: url("./img/l4.png"); }

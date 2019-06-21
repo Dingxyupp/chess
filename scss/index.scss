@@ -1,0 +1,51 @@
+$color: red;
+$h:200px;
+@mixin border{
+  border-bottom: 1px;
+}
+@mixin height($h){
+  margin-left: -($h/2);
+}
+$width: 500px;
+box{
+  width: 200px;
+  height: 100px;
+}
+.dxy{
+  height: $width;
+  width: auto;
+  color: white;
+  border-bottom: #2ed977;
+  text-align: center;
+  &-fg{
+    color: #2ed977;
+  }
+  >p{
+    color: #2ed977;
+    @include height($h);
+  }
+  +ul{
+    width: 100%;
+    @include border;
+  }
+}
+$glg:red;
+.oio{
+  @extend box;
+  @if ($glg==red){
+  color: $glg;
+}@else{
+    color: #2ed977;
+  }
+}
+@for $i from 1 through 12{
+  .cjj-#{$i}{
+    width: $i/12*100%;
+  }
+}
+@each $arr in l1,l2,l3,l4{
+  .#{$arr}{
+    background-image: url('./img/#{$arr}.png')
+  }
+}
+
